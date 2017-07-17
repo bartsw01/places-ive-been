@@ -14,30 +14,47 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Add a contact:</h2>
-          <form id="new-contact">
+          <form id="new-place">
             <div class="form-group">
-              <label for="new-first-name">First name</label>
-              <input type="text" class="form-control" id="new-first-name">
+              <label for="new-city">City</label>
+              <input type="text" class="form-control" id="new-city">
             </div>
             <div class="form-group">
-              <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
+              <label for="new-state">State</label>
+              <input type="text" class="form-control" id="new-state">
             </div>
+            <div class="form-group">
+              <label for="new-landmark">Landmark</label>
+              <input type="text" class="form-control" id="new-landmark">
+            </div>
+            <div class="form-group">
+              <label for="new-year">Year</label>
+              <input type="number" class="form-control" id="new-year">
+            </div>
+            <div class="form-group">
+              <label for="new-activity">Activity</label>
+              <input type="text" class="form-control" id="new-activity">
+            </div>
+
 
             <button type="submit" class="btn">Add</button>
           </form>
 
-          <h2>Contacts:</h2>
-          <ul id="contacts">
+          <h2>Places:</h2>
+          <ul>
 
           </ul>
         </div>
         <div class="col-md-6">
-          <div id="show-contact">
+          <div id="show-place">
             <h2></h2>
 
-            <p>First name: <span class="first-name"></span></p>
-            <p>Last name: <span class="last-name"></span></p>
+            <p>City: <span class="city"></span></p>
+            <p>State: <span class="state"></span></p>
+            <p>Landmark: <span class="landmark"></span></p>
+            <p>Year: <span class="year"></span></p>
+            <p>Activity: <span class="activity"></span></p>
+
           </div>
         </div>
       </div>
